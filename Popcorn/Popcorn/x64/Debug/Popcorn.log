@@ -1,2 +1,9 @@
-﻿  Engine.cpp
+﻿  Ball.cpp
+  Border.cpp
+  Config.cpp
+  Engine.cpp
+  Level.cpp
+  Main.cpp
+  Platform.cpp
+  Generating Code...
   Popcorn.vcxproj -> C:\Work\Popcorn_Project\Popcorn\x64\Debug\Popcorn.exe
