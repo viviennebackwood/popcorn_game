@@ -1,7 +1,8 @@
-C:\Work\Popcorn_Project\Popcorn\Popcorn\Ball.cpp;C:\Work\Popcorn_Project\Popcorn\Popcorn\x64\Debug\Ball.obj
-C:\Work\Popcorn_Project\Popcorn\Popcorn\Border.cpp;C:\Work\Popcorn_Project\Popcorn\Popcorn\x64\Debug\Border.obj
-C:\Work\Popcorn_Project\Popcorn\Popcorn\Config.cpp;C:\Work\Popcorn_Project\Popcorn\Popcorn\x64\Debug\Config.obj
-C:\Work\Popcorn_Project\Popcorn\Popcorn\Engine.cpp;C:\Work\Popcorn_Project\Popcorn\Popcorn\x64\Debug\Engine.obj
-C:\Work\Popcorn_Project\Popcorn\Popcorn\Level.cpp;C:\Work\Popcorn_Project\Popcorn\Popcorn\x64\Debug\Level.obj
-C:\Work\Popcorn_Project\Popcorn\Popcorn\Main.cpp;C:\Work\Popcorn_Project\Popcorn\Popcorn\x64\Debug\Main.obj
-C:\Work\Popcorn_Project\Popcorn\Popcorn\Platform.cpp;C:\Work\Popcorn_Project\Popcorn\Popcorn\x64\Debug\Platform.obj
+C:\Diploma\popcorn_game-main\Popcorn\Popcorn\Active_Brick.cpp;C:\Diploma\popcorn_game-main\Popcorn\Popcorn\x64\Debug\Active_Brick.obj
+C:\Diploma\popcorn_game-main\Popcorn\Popcorn\Ball.cpp;C:\Diploma\popcorn_game-main\Popcorn\Popcorn\x64\Debug\Ball.obj
+C:\Diploma\popcorn_game-main\Popcorn\Popcorn\Border.cpp;C:\Diploma\popcorn_game-main\Popcorn\Popcorn\x64\Debug\Border.obj
+C:\Diploma\popcorn_game-main\Popcorn\Popcorn\Config.cpp;C:\Diploma\popcorn_game-main\Popcorn\Popcorn\x64\Debug\Config.obj
+C:\Diploma\popcorn_game-main\Popcorn\Popcorn\Engine.cpp;C:\Diploma\popcorn_game-main\Popcorn\Popcorn\x64\Debug\Engine.obj
+C:\Diploma\popcorn_game-main\Popcorn\Popcorn\Level.cpp;C:\Diploma\popcorn_game-main\Popcorn\Popcorn\x64\Debug\Level.obj
+C:\Diploma\popcorn_game-main\Popcorn\Popcorn\Main.cpp;C:\Diploma\popcorn_game-main\Popcorn\Popcorn\x64\Debug\Main.obj
+C:\Diploma\popcorn_game-main\Popcorn\Popcorn\Platform.cpp;C:\Diploma\popcorn_game-main\Popcorn\Popcorn\x64\Debug\Platform.obj

@@ -3,7 +3,7 @@
 //AsEngine
 //--------------------------------------------------------------------------------------------------------- 
 AsEngine::AsEngine()
-: Hwnd(0), BG_Pen(0), BG_Brush(0)
+: Hwnd(0)
 {
 }
 //--------------------------------------------------------------------------------------------------------- 
@@ -11,8 +11,7 @@ void AsEngine::Init_Engine(HWND hWnd)
 {
    Hwnd = hWnd;
 
-   //Background pen&brush
-   AsConfig::Create_Pen_Brush(31, 31, 31, BG_Pen, BG_Brush);
+   Active_Brick::Setup_Colors();
 
    Ball.Init();
    Level.Init();
@@ -21,24 +20,25 @@ void AsEngine::Init_Engine(HWND hWnd)
 
    Platform.Redraw_Platform(Hwnd);
 
-   SetTimer(Hwnd, Timer_ID, 50, 0);
+   SetTimer(Hwnd, Timer_ID, 1000 / AsConfig::FPS, 0);
 }
 //--------------------------------------------------------------------------------------------------------- 
 void AsEngine::Draw_Frame(HDC hdc, RECT& paint_area)
 {//Drawing a game
 
-   Level.Draw(hdc, paint_area);
+   Level.Draw(Hwnd, hdc, paint_area);
 
-   Platform.Draw(hdc, BG_Pen, BG_Brush, paint_area);
+   Platform.Draw(hdc, paint_area);
 
-   Ball.Draw(hdc, paint_area, BG_Pen, BG_Brush);
+   Ball.Draw(hdc, paint_area);
 
    //for (int i = 0; i < 16; i++)
    //{
    //   Draw_Brick_Letter(hdc, 20 + i * Cell_Width * Global_Scale, 100, i, EBT_Blue, ELT_O);
    //   Draw_Brick_Letter(hdc, 20 + i * Cell_Width * Global_Scale, 130, i, EBT_Purple, ELT_O);
    //}
-   Border.Draw(hdc, paint_area, BG_Pen, BG_Brush);
+
+   Border.Draw(hdc, paint_area);
 }
 //--------------------------------------------------------------------------------------------------------- 
 int AsEngine::On_Key_Down(EKey_Type key_type)
@@ -75,6 +75,9 @@ int AsEngine::On_Key_Down(EKey_Type key_type)
 int AsEngine::On_Timer()
 {
    Ball.Move(Hwnd, &Level, Platform.X_Pos, Platform.Width);
+
+   Level.Active_Brick.Act(Hwnd);
+
    return 0;
 }
 //---------------------------------------------------------------------------------------------------------

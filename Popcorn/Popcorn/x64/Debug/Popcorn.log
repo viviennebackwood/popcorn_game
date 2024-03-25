@@ -1,9 +1,7 @@
-﻿  Ball.cpp
-  Border.cpp
-  Config.cpp
+﻿  Active_Brick.cpp
+  Ball.cpp
   Engine.cpp
   Level.cpp
   Main.cpp
-  Platform.cpp
   Generating Code...
-  Popcorn.vcxproj -> C:\Work\Popcorn_Project\Popcorn\x64\Debug\Popcorn.exe
+  Popcorn.vcxproj -> C:\Diploma\popcorn_game-main\Popcorn\x64\Debug\Popcorn.exe
