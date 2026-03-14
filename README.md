@@ -8,3 +8,8 @@ Made on the basis of Windows API and vector graphics.
 
 ![GAMEPLAY](gameplay.gif)
 ![GAMEPLAY](gameplay_2.gif)
+
+---
+
+### Component Diagram
+![ComponentDiagram](components.png)
