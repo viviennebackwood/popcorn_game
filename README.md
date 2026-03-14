@@ -12,4 +12,4 @@ Made on the basis of Windows API and vector graphics.
 ---
 
 ### Component Diagram
-![ComponentDiagram](components.png)
+![ComponentDiagram](components.jpg)
